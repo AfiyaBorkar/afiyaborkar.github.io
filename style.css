@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    
+    box-sizing:border-box ;
+    font-family:"Montserrat";
+    list-style: none;
+
+}
+
+body{
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 50px;
+    min-height: 100vh;
+    padding: 10px;
+}
+.container{
+    margin-top: 10px;;
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1500px;
+    background-color: #f2f2f2;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border: 2px solid;
+    overflow: auto;
+  
+}
+
+.container .left_cont{
+    position: relative;
+    padding:0;
+    padding: 40px;
+    /* overflow: auto; */
+}
+
+.container .right_cont{
+    position: relative;
+    padding: 40px;
+    /* overflow: auto; */
+}
+
+.prof{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 20px;
+   border-bottom: 1px solid ; 
+}
+
+.prof .profile_pic{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 1%;
+    overflow: hidden;
+    justify-content:center;
+   align-items: center;
+   
+    
+}
+
+.prof .profile_pic img{
+    position: absolute;
+    /* top: 0;
+    left:0; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+
+.prof h2{
+    font-weight: 600;
+    
+    margin: auto;
+  
+    font-size: 1.5em;
+    
+}
+
+.prof h2 span{
+    font-weight: 300;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.contact_info{
+   
+    margin-top: 15%;
+    padding-bottom: 20%;
+    border-bottom: 1px solid; 
+}
+
+.title h3{
+    
+    font-weight: 600;
+    margin: auto;
+    color:#003147;
+    font-size: 1.5em;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+
+.contact_info ul li {
+    position: relative;
+    margin-top: 10px;
+    list-style-type: none;
+    display: flex;
+}
+
+.contact_info ul li .icon{
+    display: inline-block;
+    width: 30px;
+    padding-right: 10px;
+    color: #03a9f4;
+    
+
+}
+.contact_info ul li .data{
+    font-weight: 300;
+    
+   
+}
+
+
+
+
+.ed h4{
+    
+    color: black;
+    padding-top: 2px;
+    padding-bottom: 2px;
+   
+  
+   
+}
+
+.ed .duration{
+    
+    font-weight: bold;
+    color: #03a9f4;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+   
+}
+
+.ed ul li{
+ margin-top: 10px;
+}
+
+
+
+.personal_qual{
+    margin-top: 15px;
+}
+
+.personal_qual ul{
+    margin-top: 5px;
+}
+
+.personal_qual ul li{
+    list-style:disc;
+    
+}
+
+.personal_cert{
+    margin-top: 15px;
+}
+.personal_cert ul li{
+    margin-top: 5px;
+    list-style: disc;
+}
+
+
+
+
+.personal_proj{
+    margin-top: 15px;
+}
+.personal_proj ul li{
+    margin-top: 5px;
+    list-style: disc;
+}
+
+
+.personal_dec{
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.hobby{
+    
+    margin-top: 15%;
+    margin-bottom: 15%;
+    padding-bottom: 20%;
+    border-bottom: 1px solid; 
+   
+}
+
+
+.hobby ul li {
+    position: relative;
+    margin-top: 10px;
+    list-style-type: none;
+    display: flex;
+}
+
+.hobby ul li .icon{
+    display: inline-block;
+    width: 30px;
+    padding-right: 10px;
+    color: #03a9f4;
+    
+
+}
+.hobby ul li .data{
+    font-weight: 300;
+    
+   
+}
+
+.lang{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    padding-bottom: 20%;
+    border-bottom: 1px solid; 
+   
+}
+
+.lang .percent{
+    position: relative;
+    width:100%;
+    height: 6px;
+    display: block;
+    margin-top: 5%;
+    background-color: lightblue;
+    margin-bottom: 10px;
+    
+}
+
+.lang .hobby ul li .text{
+    font-weight: 300;
+  
+   
+}.text{
+    
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.lang .percent  div{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    background-color:blue;
+    width: 49%;
+}
+
+.skill{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    padding-bottom: 20%;
+    border-bottom: 1px solid; 
+   
+}
+
+.skill .percent{
+    position: relative;
+    width:100%;
+    height: 6px;
+    display: block;
+    margin-top: 5%;
+    background-color: lightblue;
+    margin-bottom: 10px;
+    
+}
+
+.skill .hobby ul li .text{
+    font-weight: 300;
+  
+   
+}
+
+.skill .percent  div{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    background-color:blue;
+    width: 49%;
+}
+
+.title2{
+    font-weight: 600;
+    color:#003147;
+    margin: auto;
+   font-family: 'Times New Roman', Times, serif;
+    font-size: 0.8em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+ i{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.exp h4{
+   
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.exp .duration{
+    font-weight: bold;
+    color: #03a9f4;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   
+
+}
+
+.exp ul li{
+ margin-top: 10px;
+}
+
+
+.event{
+    display: grid;
+    grid-template-columns: 5ch 1fr;
+    
+}
+.content{
+    border-left: 1px solid #888;
+    padding-left: 15px;
+    margin-left: 15px;
+}
